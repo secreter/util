@@ -1,5 +1,5 @@
 ajax({
-	url:'http://redream.cn',
+	url:'http://localhost:3000/ajax',
 	dataType:'json',
 	method:'GET',
 	data:{},
