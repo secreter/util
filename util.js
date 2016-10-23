@@ -18,4 +18,11 @@ function type(obj) {
 	return map[toString.call(obj)]
 }
 
+// random
+function random(min,max){
+	var step=max-min
+	return Math.floor(Math.random()*step+min)
+}
+
 //deepClone	
+
