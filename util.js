@@ -26,3 +26,6 @@ function random(min,max){
 
 //deepClone	
 
+
+//get bgcolor
+
