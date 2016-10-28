@@ -29,3 +29,6 @@ function random(min,max){
 
 //get bgcolor
 
+
+//cookies
+
