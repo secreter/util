@@ -32,3 +32,6 @@ function random(min,max){
 
 //cookies
 
+
+//indexDB
+
