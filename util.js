@@ -24,6 +24,17 @@ function random(min,max){
 	return Math.floor(Math.random()*step+min)
 }
 
+//getUrlParamObj
+function getUrlParamObj() {
+  let str=location.search.substr(1)
+  let o={}
+  let strArr=str.split('&')
+  strArr.forEach((item) => {
+    item=item.split('=')
+    o[decodeURIComponent(item[0])]=decodeURIComponent(item[1])
+  })
+  return o
+}
 //deepClone	
 
 
